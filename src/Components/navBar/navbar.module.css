@@ -1,0 +1,11 @@
+.cartNo {
+	position: absolute;
+	min-width: 25px;
+	min-height: 25px;
+	border-radius: 50%;
+	background: rgb(120, 120, 120);
+	color: #ffffff;
+	text-align: center;
+	top: -14px;
+	right: 32px;
+}
