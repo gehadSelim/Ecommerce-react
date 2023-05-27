@@ -20,7 +20,7 @@ const cartReducer = (state = initialState, action) => {
 			};
 			return { ...state, cartArr: [...state.cartArr, newCartItem] };
 
-		case DELETE_TODO:
+		case REMOVE_FROM_CART:
 			let newArr = state.cartArr.filter(
 				(cartItem) => cartItem.id !== action.payload.id
 			);
